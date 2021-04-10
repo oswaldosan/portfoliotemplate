@@ -1,0 +1,96 @@
+.services {
+  min-height: 100vh;
+  max-width: 1380px;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  padding-left: 80px;
+  padding-right: 80px;
+  background: #260cbc;
+}
+
+.services h3 {
+  font-family: "Metropolis";
+  font-weight: 300;
+  color: #6799e0;
+  font-size: 38px;
+  line-height: 30px;
+  margin-bottom: -20px;
+}
+
+.services h1 {
+  font-family: "Metropolis";
+  font-size: 48px;
+  font-weight: 600;
+  color: white;
+}
+
+.serviceGrid {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+  row-gap: 50px;
+}
+
+.singleService {
+  border-radius: 6px;
+  color: white;
+  padding: 50px;
+  background: #4349df;
+}
+
+.singleService h2 {
+  font-family: "Metropolis";
+  font-size: 28px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.singleService p {
+  font-family: "Grotesk";
+  width: 60%;
+}
+
+.singletag {
+  font-family: "Grotesk";
+  display: inline-block;
+  margin-right: 10px;
+  background: #6065e3;
+  padding: 8px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 880px) {
+  .services {
+    min-height: auto;
+    max-width: 1380px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 0px;
+    background: #260cbc;
+  }
+
+  .serviceGrid {
+    margin-top: 60px;
+    overflow-x: scroll;
+    display: flex;
+    column-gap: 40px;
+    row-gap: 50px;
+  }
+  .singleService {
+    border-radius: 6px;
+    color: white;
+    padding: 15px;
+    min-width: 250px;
+    background: #4349df;
+  }
+
+  .singleService p {
+    font-family: "Grotesk";
+    width: 95%;
+  }
+}

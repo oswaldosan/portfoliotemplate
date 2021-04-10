@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Grotesk";
+  src: url("/fonts/HKGrotesk-Bold.otf");
+  font-style: bold;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Grotesk";
+  src: url("/fonts/HKGrotesk-Regular.otf");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("/fonts/Metropolis-Bold.otf");
+  font-style: bold;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("/fonts/Metropolis-Regular.otf");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("/fonts/Metropolis-Thin.otf");
+  font-style: thin;
+  font-weight: 300;
+  font-display: swap;
+}
+
+html {
+  --maxwidth: 1390px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}

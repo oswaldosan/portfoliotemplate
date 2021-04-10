@@ -1,0 +1,102 @@
+.workflow {
+  max-width: 1380px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding-top: 120px;
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
+.workflow h3 {
+  font-family: "Metropolis";
+  font-weight: 300;
+  color: #260cbc;
+  font-size: 40px;
+  line-height: 20px;
+}
+
+.workflow h1 {
+  font-family: "Metropolis";
+  font-weight: 600;
+  color: black;
+  font-size: 48px;
+  line-height: 20px;
+}
+
+.workflow p {
+  font-family: "Grotesk";
+  font-weight: 500;
+  color: black;
+  width: 450px;
+  font-size: 16px;
+  color: #3a3a3a;
+}
+
+.steps {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 60px;
+  row-gap: 20px;
+}
+
+.steps h2 {
+  color: #260cbc;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.steps p {
+  width: 90%;
+  opacity: 0.8;
+}
+
+.number {
+  background: #e1ebfb;
+  padding: 6px;
+  color: #666;
+  width: 15px;
+  font-size: 13px;
+  text-align: center;
+}
+
+@media screen and (max-width: 880px) {
+  .workflow {
+    max-width: 1380px;
+    min-height: auto;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .steps {
+    padding-top: 0.1rem;
+    padding-bottom: 0px;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    max-width: 1280px !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    overflow-x: scroll;
+  }
+  .singleStep {
+    min-width: 200px;
+  }
+  .workflow p {
+    font-family: "Grotesk";
+    font-weight: 500;
+    color: black;
+    width: 90%;
+  }
+
+  .workflow h1 {
+    font-family: "Metropolis";
+    font-weight: 600;
+    color: black;
+    font-size: 48px;
+    line-height: 50px;
+  }
+}

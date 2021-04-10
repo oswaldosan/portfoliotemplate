@@ -1,0 +1,174 @@
+.works {
+  min-height: 100vh;
+  max-width: 1380px;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.works h3 {
+  font-family: "Metropolis";
+  font-weight: 300;
+  color: #260cbc;
+  font-size: 38px;
+  line-height: 30px;
+  margin-bottom: -20px;
+}
+
+.works h1 {
+  font-family: "Metropolis";
+  font-size: 48px;
+  font-weight: 600;
+  color: black;
+  width: 50%;
+}
+
+.sliderGrid {
+  margin-top: 40px;
+  position: relative;
+  display: grid !important;
+  grid-template-columns: 1.3fr 1fr;
+  column-gap: 50px;
+}
+
+.nextArrow {
+  z-index: 5;
+  position: absolute;
+  bottom: -20px;
+  right: 20px;
+}
+
+.prevArrow {
+  z-index: 5;
+  position: absolute;
+  bottom: -20px;
+  right: 100px;
+}
+
+.images {
+  width: 100%;
+  height: 600px;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.information {
+  padding: 30px;
+}
+
+.information h1 {
+  color: #260cbc;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.information p {
+  font-family: "Grotesk";
+  font-style: normal;
+  font-size: 16px;
+  letter-spacing: 0.008em;
+  color: #3a3a3a;
+  width: 70%;
+}
+
+.techtag {
+  margin-top: 15px;
+  display: inline-block;
+  padding: 7px;
+  width: 90px;
+  color: #666;
+  font-size: "Grotesk";
+  font-weight: 500;
+  text-align: center;
+  background: #e1ebfb;
+  margin-right: 12px;
+}
+
+.livelink {
+  color: #f9476a;
+  font-family: "Grotesk";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 35px;
+  letter-spacing: 0.008em;
+  border-bottom: 4px solid #fccbd4;
+  text-decoration: none;
+}
+
+.codelink {
+  color: #666;
+  font-family: "Grotesk";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 45px;
+  letter-spacing: 0.008em;
+  border-bottom: 4px solid #e1ebfb;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 880px) {
+  .works {
+    min-height: auto;
+    max-width: 1380px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .works h3 {
+    font-size: 1.5rem;
+  }
+  .works h1 {
+    font-size: 2rem;
+    width: 90%;
+  }
+
+  .sliderGrid {
+    margin-top: 10px;
+    position: relative;
+    display: grid !important;
+    grid-template-columns: 1fr;
+    column-gap: 50px;
+  }
+
+  .nextArrow {
+    z-index: 5;
+    position: absolute;
+    bottom: -10px;
+    right: -20px;
+  }
+
+  .prevArrow {
+    z-index: 5;
+    position: absolute;
+    bottom: -10px;
+    right: 60px;
+  }
+
+  .images {
+    width: 100%;
+    height: 250px;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .information {
+    padding: 10px;
+  }
+  .information p {
+    width: 95%;
+  }
+
+  .techtag {
+    font-size: 12px;
+    width: 70px;
+  }
+}
