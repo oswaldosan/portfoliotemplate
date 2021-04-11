@@ -15,9 +15,13 @@ const HeroComponent = () => {
           about creating mobile and web interfaces
         </p>
         <div className={styles.herobuttons}>
-          <div className={styles.primarybutton}>Got a project? Let’s talk</div>
+          <Link to="contact" spy={true} smooth={true} duration={500}>
+            <div className={styles.primarybutton}>
+              Got a project? Let’s talk
+            </div>
+          </Link>
 
-          <Link to="work" spy={true} smooth={true} offset={0} duration={500}>
+          <Link to="work" spy={true} smooth={true} duration={500}>
             <div className={styles.nobgbutton}>
               CHECK MY WORKS <span></span>
             </div>
