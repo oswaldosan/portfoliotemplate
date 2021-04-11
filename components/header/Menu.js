@@ -3,16 +3,17 @@ import styles from "./Header.module.css";
 import { Link, animateScroll as scroll } from "react-scroll";
 import { useState } from "react";
 
-const Menu = () => {
+const Menu = (props) => {
   const [selected, setSelected] = useState("hero");
 
   function setMenu(link) {
     setSelected(link);
     console.log(link);
+    props.openMenu();
   }
 
   return (
-    <div className={styles.menu}>
+    <div className={styles.main}>
       <ul>
         {links.map((item, i) => {
           return (

@@ -1,7 +1,8 @@
 .workflow {
   max-width: 1380px;
-  min-height: 100vh;
+  max-height: 1000px;
   margin: 0 auto;
+  padding-bottom: 100px;
   padding-top: 120px;
   padding-right: 80px;
   padding-left: 80px;

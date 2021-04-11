@@ -1,0 +1,64 @@
+.feed {
+  width: 100%;
+  max-height: 1000px;
+  padding-top: 170px;
+  padding-bottom: 170px;
+  background: white;
+}
+
+.feedContent {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feedContent {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.feedContent h3 {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 48px;
+  line-height: 48px;
+  color: #260cbc;
+}
+
+.feedContent h1 {
+  font-family: "Metropolis";
+  color: black;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+
+@media screen and (max-width: 850px) {
+  .feed {
+    width: 100%;
+    max-height: 1000px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: white;
+  }
+
+  .feedContent h3 {
+    font-size: 38px;
+    line-height: 48px;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .feedContent h1 {
+    font-size: 50px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    line-height: 50px;
+    text-align: center;
+  }
+}

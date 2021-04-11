@@ -47,3 +47,24 @@ body {
   margin: 0;
   font-family: sans-serif;
 }
+
+.singlebtn {
+  color: white;
+  padding: 15px;
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 150px;
+  margin: 0 auto;
+  text-align: center;
+  background: #f81743;
+  border-radius: 4px;
+  font-family: "Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.008em;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0px 13px 15px #ff7893b3;
+}

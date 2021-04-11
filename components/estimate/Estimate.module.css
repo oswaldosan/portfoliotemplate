@@ -1,0 +1,138 @@
+.feed {
+  width: 100%;
+  max-height: 1000px;
+  padding-top: 150px;
+  padding-bottom: 180px;
+  background: #111416;
+  position: relative;
+}
+
+.topbg {
+  position: absolute;
+  top: 0;
+  right: 2%;
+}
+
+.bottombg {
+  position: absolute;
+  bottom: 0;
+  left: 0%;
+}
+
+.feedContent {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feedContent {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.feedContent h3 {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 48px;
+  line-height: 48px;
+  color: #6799e0;
+}
+
+.feedContent h1 {
+  font-family: "Metropolis";
+  color: #f6f9fe;
+  font-style: normal;
+  font-weight: 800;
+  width: 800px;
+  margin: 0 auto;
+  font-size: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+.feedContent p {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #6799e0;
+}
+
+@media screen and (max-width: 850px) {
+  .feed {
+    width: 100%;
+    max-height: 1000px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #111416;
+  }
+
+  .feedContent h3 {
+    font-size: 38px;
+    line-height: 48px;
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+  }
+
+  .feedContent h1 {
+    font-size: 50px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  .feedContent p {
+    position: relative;
+    z-index: 1;
+  }
+  .topbg {
+    position: absolute;
+    top: 0;
+    right: 2%;
+    opacity: 0.3;
+    z-index: 0;
+  }
+
+  .bottombg {
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    opacity: 0.3;
+    z-index: 0;
+  }
+}
+
+.btn {
+  color: white;
+  padding: 15px;
+  padding-left: 2%;
+  padding-right: 4%;
+  width: 180px;
+  background-image: url("/btnarrow.svg");
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: center right;
+  background-position-x: 90%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #f81743;
+  border-radius: 4px;
+  font-family: "Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.008em;
+  text-transform: uppercase;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}

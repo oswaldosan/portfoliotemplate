@@ -29,7 +29,7 @@
   margin-top: 40px;
   position: relative;
   display: grid !important;
-  grid-template-columns: 1.3fr 1fr;
+  grid-template-columns: 1fr 2fr;
   column-gap: 50px;
 }
 
@@ -48,8 +48,8 @@
 }
 
 .images {
-  width: 100%;
-  height: 600px;
+  width: 400px;
+  height: 380px;
   border-radius: 8px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -115,7 +115,7 @@
 
 @media screen and (max-width: 880px) {
   .works {
-    min-height: auto;
+    min-height: 100vh;
     max-width: 1380px;
     margin: 0 auto;
     padding-top: 20px;
@@ -142,20 +142,20 @@
   .nextArrow {
     z-index: 5;
     position: absolute;
-    bottom: -10px;
+    bottom: -16%;
     right: -20px;
   }
 
   .prevArrow {
     z-index: 5;
     position: absolute;
-    bottom: -10px;
+    bottom: -16%;
     right: 60px;
   }
 
   .images {
     width: 100%;
-    height: 250px;
+    height: 310px;
     border-radius: 8px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -171,4 +171,8 @@
     font-size: 12px;
     width: 70px;
   }
+}
+
+.charge span {
+  font-weight: 600;
 }

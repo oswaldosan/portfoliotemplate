@@ -16,8 +16,8 @@ const links = [
     link: "work",
   },
   {
-    title: "Resume",
-    link: "resume",
+    title: "Testimonials",
+    link: "testimonials",
   },
   {
     title: "Contact",

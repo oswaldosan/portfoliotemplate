@@ -92,20 +92,11 @@
   display: none;
 }
 
+.desktopmenu {
+  display: block;
+}
+
 @media screen and (max-width: 880px) {
-  .menu {
-    display: none;
-  }
-
-  .mobileMenu {
-    cursor: pointer;
-    display: block;
-    position: absolute;
-    top: 30px;
-    right: 40px;
-    width: 35px;
-  }
-
   .bar1 {
     position: relative;
     width: 100%;
@@ -119,5 +110,66 @@
     height: 5px;
     margin-top: 4px;
     background: #260cbc;
+  }
+
+  .desktopmenu {
+    display: none !important;
+  }
+}
+
+.mobileBigMenu {
+  display: none;
+}
+
+@media screen and (max-width: 850px) {
+  .menu {
+    display: none;
+  }
+
+  .mobileBigMenu {
+    display: block;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: white;
+    z-index: 99;
+    font-family: "Metropolis";
+  }
+
+  .closeBtn {
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 44px;
+  }
+
+  .main ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    position: absolute;
+    top: 10%;
+    left: 13%;
+  }
+
+  .main li {
+    width: 200px;
+    list-style: none !important;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 24px;
+    position: relative;
+  }
+
+  .mobileMenu {
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    width: 35px;
   }
 }
