@@ -30,7 +30,7 @@ const HeroComponent = () => {
       </div>
       <div className={styles.image}>
         <h1>DEVELOPER</h1>
-        <img src="/heroimg.webp" alt="hero portfolio"></img>
+        <img src="/heroim.webp" alt="hero portfolio"></img>
       </div>
       <div className={styles.developerText}>DEVELOPER</div>
     </div>
