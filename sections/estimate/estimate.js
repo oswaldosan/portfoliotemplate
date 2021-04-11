@@ -5,7 +5,7 @@ const Estimate = () => {
     <div className={styles.feed}>
       <div className={styles.feedContent}>
         <div className={styles.topbg}>
-          <img src="/bbg.svg"></img>
+          <img src="/bbg.svg" alt="bg"></img>
         </div>
         <h3>Would you like to appear in my project feed?</h3>
         <h1>It's time to take your project to the next level</h1>
@@ -14,7 +14,7 @@ const Estimate = () => {
         <br />
         <div className={styles.btn}>Estimate project</div>
         <div className={styles.bottombg}>
-          <img src="/bbg2.svg" width="100%"></img>
+          <img src="/bbg2.svg" width="100%" alt="bg"></img>
         </div>
       </div>
     </div>

@@ -15,31 +15,31 @@ const Footer = () => {
           </div>
           <p>
             Designed by Rodrigo Garcia & Coded with
-            <img src="/heart.svg"></img>
+            <img src="/heart.svg" alt="heart"></img>
             by Tony Sanchez
           </p>
         </div>
         <div className={styles.single}>
           <h2>Contact</h2>
-          <a>oswaldosan92@gmail.com</a> <br />
-          <a>+591 (700) 000 00</a>
+          <a href="#">oswaldosan92@gmail.com</a> <br />
+          <a href="#">+591 (700) 000 00</a>
           <br /> <br />
           <h2>Let's be friends</h2>
           <div className={styles.socialIcons}>
-            <img src="/facebook.svg"></img>
-            <img src="/instagram.svg"></img>
-            <img src="/linkedin.svg"></img>
-            <img src="/skype.svg"></img>
-            <img src="/behance.svg"></img>
+            <img src="/facebook.svg" alt="facebook social icon"></img>
+            <img src="/instagram.svg" alt="instagram social icon"></img>
+            <img src="/linkedin.svg" alt="LinkedIn social icon"></img>
+            <img src="/skype.svg" alt="Skype social icon"></img>
+            <img src="/behance.svg" alt="Behance social icon"></img>
           </div>
         </div>
         <div className={styles.single}>
           <h2>Menu</h2>
-          <a>Home</a> <br />
-          <a>Workflow</a> <br />
-          <a>Services</a> <br />
-          <a>My Work</a> <br />
-          <a>Resume</a> <br />
+          <a href="#">Home</a> <br />
+          <a href="#">Workflow</a> <br />
+          <a href="#">Services</a> <br />
+          <a href="#">My Work</a> <br />
+          <a href="#">Resume</a> <br />
         </div>
       </div>
     </div>

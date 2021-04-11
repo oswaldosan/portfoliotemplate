@@ -1,20 +1,20 @@
-import Estimate from "../components/estimate/estimate";
-import Footer from "../components/footer/footer";
-import Header from "../components/header/header";
-import HeroComponent from "../components/hero/HeroComponent";
-import Services from "../components/myservices/Services";
-import MyWorks from "../components/myworks/MyWorks";
-import Feed from "../components/projectFeed/feed";
-import SEOcomponent from "../components/SEOComp";
-import Testimonials from "../components/testimonials/Testimonials";
-import WorkFlow from "../components/workflow/WorkFlow";
+import Estimate from "../sections/estimate/estimate";
+import Footer from "../sections/footer/footer";
+import Header from "../sections/header/header";
+import HeroComponent from "../sections/hero/HeroComponent";
+import Services from "../sections/myservices/Services";
+import MyWorks from "../sections/myworks/MyWorks";
+import Feed from "../sections/projectFeed/feed";
+import SEOcomponent from "../sections/SEOComp";
+import Testimonials from "../sections/testimonials/Testimonials";
+import WorkFlow from "../sections/workflow/WorkFlow";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
     <>
       <SEOcomponent
-        title="Portfolio"
+        title="Tony Sanchez Portfolio Website"
         description="This is My Portfolio"
         image="/portada.jpg"
       />
