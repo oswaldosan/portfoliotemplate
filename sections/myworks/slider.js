@@ -52,11 +52,19 @@ const SliderComponent = (props) => {
                 })}
                 <br /> <br />
                 <br />
-                <a className={styles.livelink} href={work.liveLink}>
+                <a
+                  className={styles.livelink}
+                  href={work.liveLink}
+                  target="_blank"
+                >
                   SEE IT LIVE
                 </a>
                 <br /> <br />
-                <a className={styles.codelink} href={work.liveLink}>
+                <a
+                  className={styles.codelink}
+                  href={work.liveLink}
+                  target="_blank"
+                >
                   VIEW CODE
                 </a>
               </div>
