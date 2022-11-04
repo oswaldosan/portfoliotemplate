@@ -62,7 +62,7 @@ const SliderComponent = (props) => {
                 <br /> <br />
                 <a
                   className={styles.codelink}
-                  href={work.liveLink}
+                  href={work.codeLink}
                   target="_blank"
                 >
                   VIEW CODE

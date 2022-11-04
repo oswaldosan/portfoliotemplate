@@ -14,23 +14,30 @@ const Footer = () => {
             <br />
           </div>
           <p>
-            Designed by Rodrigo Garcia & Coded with
+            Coded with
             <img src="/heart.svg" alt="heart"></img>
-            by Tony Sanchez
+            by Oswaldo Sanchez
           </p>
         </div>
         <div className={styles.single}>
           <h2>Contact</h2>
-          <a href="#">oswaldosan92@gmail.com</a> <br />
-          <a href="#">+591 (700) 000 00</a>
+          <a href="mailto:oswaldosan92@gmail.com">
+            oswaldosan92@gmail.com
+          </a>{" "}
+          <br />
+          <a href="#">+504 3336-3789</a>
           <br /> <br />
           <h2>Let's be friends</h2>
           <div className={styles.socialIcons}>
-            <img src="/facebook.svg" alt="facebook social icon"></img>
-            <img src="/instagram.svg" alt="instagram social icon"></img>
-            <img src="/linkedin.svg" alt="LinkedIn social icon"></img>
-            <img src="/skype.svg" alt="Skype social icon"></img>
-            <img src="/behance.svg" alt="Behance social icon"></img>
+            <a href="https://www.facebook.com/tonyloops" target="_blank">
+              <img src="/facebook.svg" alt="facebook social icon"></img>
+            </a>
+            <a href="https://www.instagram.com/tonyloops/" target="_blank">
+              <img src="/instagram.svg" alt="instagram social icon"></img>
+            </a>
+            <a href="https://www.linkedin.com/in/oswaldosan92" target="_blank">
+              <img src="/linkedin.svg" alt="LinkedIn social icon"></img>
+            </a>
           </div>
         </div>
         <div className={styles.single}>

@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <SEOcomponent
-        title="Tony Sanchez Portfolio Website"
+        title="Oswaldo Sanchez Portfolio Website"
         description="This is My Portfolio"
         image="/portada.jpg"
       />
@@ -25,8 +25,6 @@ export default function Home() {
         <WorkFlow></WorkFlow>
         <Services></Services>
         <MyWorks></MyWorks>
-        <Feed></Feed>
-        <Testimonials></Testimonials>
         <Estimate></Estimate>
         <Footer></Footer>
       </div>

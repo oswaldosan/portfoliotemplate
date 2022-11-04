@@ -6,13 +6,30 @@ const HeroComponent = () => {
     <div className={styles.hero} id="hero">
       <div className={styles.info}>
         <h3>Hi, I’m</h3>
-        <h1>Tony Sanchez</h1>
+        <h1>Oswaldo Sanchez</h1>
         <h2>I build things for the web.</h2>
         <p>
-          I'm a <span>Frontend Developer</span> based in Honduras, specializing
+          I'm a <span>Software Developer</span> based in Honduras, specializing
           in building <span>exceptional websites</span> applying the entire
           cycle of creating a digital product. In addition to being passionate
-          about creating mobile and web interfaces
+          about creating mobile and web interfaces. <br /> <br />
+          Linked In Profile:{" "}
+          <a
+            href="https://www.linkedin.com/in/oswaldosan92/"
+            rel="norefferer"
+            target="_blank"
+          >
+            linkedin.com/in/oswaldosan92
+          </a>
+          <br />
+          Github:{" "}
+          <a
+            href=" https://github.com/oswaldosan"
+            rel="norefferer"
+            target="_blank"
+          >
+            Github Profile
+          </a>
         </p>
         <div className={styles.herobuttons}>
           <Link to="contact" spy={true} smooth={true} duration={500}>

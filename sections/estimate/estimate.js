@@ -7,12 +7,14 @@ const Estimate = () => {
         <div className={styles.topbg}>
           <img src="/bbg.svg" alt="bg"></img>
         </div>
-        <h3>Would you like to appear in my project feed?</h3>
+        <h3>Would you like to hire me ?</h3>
         <h1>It's time to take your project to the next level</h1>
         <br />
-        <p>Response time 1 to 2 working days.</p> <br />
+        <p>Response time inmediatly.</p> <br />
         <br />
-        <div className={styles.btn}>Estimate project</div>
+        <a href="https://wa.me/+50433363789">
+          <div className={styles.btn}>Whatsapp Me</div>
+        </a>
         <div className={styles.bottombg}>
           <img src="/bbg2.svg" width="100%" alt="bg"></img>
         </div>
