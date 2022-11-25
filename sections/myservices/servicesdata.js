@@ -1,12 +1,10 @@
 const servicesdata = [
   {
     icon: "/ux.svg",
-    title: "UX/UI Design",
-    text:
-      "Creating engaging product and brand stories, supported by the latest UX strategies.We use a highly structured design process that’s ",
+    title: "UX Coder",
+    text: "Pixel perfect coder supported by the latest UX strategies. I use a highly structured desing coding process. ",
     tags: [
       "User Interface",
-      "User Experiencie",
       "Interaction Design",
       "Website & Mobile App Design",
       "Prototyping & Testing",
@@ -15,44 +13,28 @@ const servicesdata = [
 
   {
     icon: "/web.svg",
-    title: "Web Development",
-    text:
-      "We excell in both large, complex portals and smaller, campaign landing pages, that load fast and look amazing.",
-    tags: [
-      "Landing Page",
-      "Website",
-      "E-commerce",
-      "Wordpress",
-      "WebApp",
-      "PWA",
-    ],
+    title: "Wordpress Developer",
+    text: "I also define myself as a wordpress developer I can make full themes and plugins from scratch.",
+    tags: ["Wordpress", "Timber", "woocommerce", "ACF"],
   },
 
   {
     icon: "/mobile.svg",
     title: "Mobile App Development",
-    text:
-      "We carefully craft the user experience of iOS and Android applications. We are experts at making apps that are easy to use",
-    tags: [
-      "Cross Platform",
-      "React Native",
-      "Mobile first",
-      "Android",
-      "Iphone",
-    ],
+    text: "I have experience working with crossplatform apps for iOS and Android and also PWA's",
+    tags: ["Cross Platform", "React Native", "PWA", "Android", "Iphone"],
   },
 
   {
     icon: "/frontend.svg",
     title: "Frontend Development",
-    text:
-      "Front-end development is crucial in achieving slick look and fast motion effects. Is a important skill for development your products.",
+    text: "Front-end development always focused on the User Experience part using the most advanced technologies.",
     tags: [
       "HTML",
       "CSS",
       "ReactJs",
       "NextJs",
-      "Svelte & Sapper",
+      "Svelte & Sveltekit",
       "Responsive Design",
     ],
   },

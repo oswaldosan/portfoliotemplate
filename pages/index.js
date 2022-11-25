@@ -22,7 +22,6 @@ export default function Home() {
       <div className={styles.container}>
         <Header></Header>
         <HeroComponent></HeroComponent>
-        <WorkFlow></WorkFlow>
         <Services></Services>
         <MyWorks></MyWorks>
         <Estimate></Estimate>

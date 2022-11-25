@@ -4,20 +4,12 @@ const links = [
     link: "hero",
   },
   {
-    title: "Workflow",
-    link: "workflow",
-  },
-  {
     title: "Services",
     link: "services",
   },
   {
     title: "My Work",
     link: "work",
-  },
-  {
-    title: "Testimonials",
-    link: "testimonials",
   },
   {
     title: "Contact",
