@@ -80,6 +80,8 @@
     display: flex;
     column-gap: 40px;
     row-gap: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
   }
   .singleService {
     border-radius: 6px;
