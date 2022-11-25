@@ -6,7 +6,7 @@ const servicesdata = [
     tags: [
       "User Interface",
       "Interaction Design",
-      "Website & Mobile App Design",
+      "CSS & Sass",
       "Prototyping & Testing",
     ],
   },
