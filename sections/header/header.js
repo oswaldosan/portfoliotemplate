@@ -1,7 +1,6 @@
 import styles from "./Header.module.css";
 import Menu from "./Menu";
 import { useState, useEffect } from "react";
-import links from "./menuLinks";
 
 const Header = () => {
   const [offset, setOffset] = useState(null);
@@ -15,7 +14,6 @@ const Header = () => {
 
   function openMenu() {
     setOpen(!opened);
-    console.log(opened);
   }
 
   return (
@@ -33,7 +31,7 @@ const Header = () => {
             <div className={styles.logoBlack}></div>
             <div className={styles.logoWhite}></div>
           </div>
-          Tony Sanchez Developer
+          Oswaldo Sánchez Developer
         </div>
         <div className={styles.menu}>
           <Menu openMenu={openMenu}></Menu>

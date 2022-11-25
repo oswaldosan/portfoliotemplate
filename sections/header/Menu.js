@@ -8,7 +8,6 @@ const Menu = (props) => {
 
   function setMenu(link) {
     setSelected(link);
-    console.log(link);
     props.openMenu();
   }
 
